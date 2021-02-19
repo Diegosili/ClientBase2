@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author pogliani.mattia
+ * @author siliprandi.diego
  */
 public class ClientBase {
 
