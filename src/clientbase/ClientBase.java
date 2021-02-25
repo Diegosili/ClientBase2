@@ -38,6 +38,9 @@ public class ClientBase {
                 scrittore.println(s);
                 String risposta = riceve.readLine();
                 System.out.println("risposta del server: " + risposta);
+                
+                risposta = risposta.split(": ")[1];
+                System.out.println("Hai inserito "+risposta+" caratteri");
             }
 
             riceve.close();
